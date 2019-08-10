@@ -1,5 +1,8 @@
 # 一个顶俩
+
 原地址 https://github.com/ustc-zzzz/yigedinglia
+
+演示地址 http://zxj5470.gitee.io/gitee-page/YiGeDingLia/
 
 ## 修改内容
 - 使用了 Vue
