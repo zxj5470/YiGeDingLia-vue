@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>一个顶俩</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.min.css" />
+    <script src="https://cdn.bootcss.com/vue/2.6.10/vue.min.js"></script>
+</head>
+<body>
+<div id="app" class='markdown-body'>
+    <h1>一个顶俩</h1>
+    <p>请输入一个四字成语，如成功识别：</p>
+    <p>本页面将自动为你接龙到“一个顶俩”</p>
+    <p><input id="input1" v-model="pinyinIdiom" type='input' @input="inputFun"/></p>
+    <p></p>
+    <p>下面这个输入你想要的拼音来生成一个顶俩</p>
+    <p><input v-model="pinyinInput" type='input' @input="inputFun2"/></p>
+    <li v-for="it in seq">
+        {{ it }}
+    </li>
+    <button @click="doCopy">点击复制下面内容</button>
+    <p>{{ret}}</p>
+    <p>网页来源：<a href='https://github.com/ustc-zzzz/yigedinglia'>https://github.com/ustc-zzzz/yigedinglia</a></p>
+    <p>数据来源：<a href='https://github.com/pwxcoo/chinese-xinhua'>https://github.com/pwxcoo/chinese-xinhua</a></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+{
+  "name": "yigedinglia-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open --inline",
+    "build": "webpack --verbose",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "vue": "2.6.10",
+    "vue-clipboard2": "^0.3.0"
+  },
+  "browser": {
+    "colors": false,
+    "events": "eventemitter3",
+    "checkForModuleDuplicates": false,
+    "tracer": false
+  },
+  "devDependencies": {
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.2.2",
+    "compression-webpack-plugin": "^2.0.0",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "css-loader": "^2.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "author": "",
+  "license": "ISC"
+}
